@@ -1,0 +1,51 @@
+.header{
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(55, 70, 74);
+    align-items: center;
+    margin: 10px 0 0 0;
+    border: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #eee;
+}
+
+.minhacor{
+    height: 70px;
+    width: 60px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    -webkit-box-shadow: 0px 11px 19px 0px rgba(50, 9, 50, 0.52);
+    -moz-box-shadow:    0px 11px 19px 0px rgba(50, 9, 50, 0.52);
+    box-shadow:         0px 11px 19px 0px rgba(50, 9, 50, 0.52);
+}
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+.minhacor i{
+    position: absolute;
+    left: 27px;
+    top: 34px;
+}
+.container{
+    margin: 15px 2% 10px 2%;
+    padding: 5px;
+    border: solid 1px black;
+    bottom: 0px;
+    height: 80%;
+    background-color: #fff;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
