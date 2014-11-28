@@ -1,4 +1,4 @@
-table#miyazaki { 
+table#contatos {
   margin: 0 auto;
   border-collapse: collapse;
   font-family: Agenda-Light, sans-serif;
@@ -8,30 +8,30 @@ table#miyazaki {
   border-radius: 5px; 
     width: 100%;
 }
-table#miyazaki thead th { font-weight: 600; }
-table#miyazaki thead th, table#miyazaki tbody td { 
+table#contatos thead th { font-weight: 600; }
+table#contatos thead th, table#contatos tbody td {
   padding: .8rem; font-size: 1.4rem;
 }
-table#miyazaki tbody td { 
+table#contatos tbody td {
   padding: .8rem; font-size: 1.4rem;
   color: #444; background: #eee; 
   text-align: center;
 }
-table#miyazaki tbody tr:not(:last-child) { 
+table#contatos tbody tr:not(:last-child) {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;  
 }
 
 @media screen and (max-width: 600px) {
-  table#miyazaki caption { background-image: none; }
-  table#miyazaki thead { display: none; }
-  table#miyazaki tbody td { 
+  table#contatos caption { background-image: none; }
+  table#contatos thead { display: none; }
+  table#contatos tbody td {
     display: block; padding: .6rem; 
   }
-  table#miyazaki tbody tr td:first-child { 
+  table#contatos tbody tr td:first-child {
     background: #666; color: #fff; 
   }
-	table#miyazaki tbody td:before { 
+	table#contatos tbody td:before {
     content: attr(data-th); 
     font-weight: bold;
     display: inline-block;
